@@ -1,0 +1,58 @@
+
+
+
+body {
+    font-family: sans-serif; /* Se cambia la fuente del texto a sans-serif */
+    margin: 0; /* Se agrega una magen en la cual superior e inferior es = 0 */
+}
+
+
+
+
+
+
+
+
+
+.contenedor {
+    display: flex; /* dar un estilo de visualizacion tipo flex  */
+    flex-wrap: wrap; /* controlamos el estilo de desbordamiento usando wrap para las multiples lineas  */
+    justify-content: space-around;/* alineamos y damos un espacio igual al alrededor de los elementos */
+    padding: 20px; /* se hace un area de relleno con el padding */
+}
+
+
+
+
+
+.tarjeta {
+    width: 300px;/* se da un ancho de 300 px la cual estira el borde */
+    margin: 100px; /* se establece una margen exterior a 100px */
+    border: 1px solid #ccc; /* se aplica un borde completo de 1 px solido a color blanco */
+    padding: 30px; /* en el interior se aplica un padding el cual de un relleno a la figura  */
+    border-radius: 5px; /* se da un redondeo de esquinas con border */
+    box-shadow: 0 2px 5px rgba (0, 0, 0, 0.1); /* se hace un efecto sombra */
+}
+
+
+
+.tarjeta img {
+    width: 100%; /* se da un ancho mejor para que las imagenes se adapten a la tarjeta   */
+    height: auto; /* un alto en auto dejando que el sistema lo ordene segun el contenido */
+    display: block; /* para que el elemento se visualice ocupando todo el espacio por defecto  */
+    border-radius: 5px 5px 0 0; /* se redondea los bordes de las imagenes */
+}
+
+
+/* Esta propiedad le da el toque a el texto del titulo una margen superior  */
+
+.tarjeta h3 {
+    margin-top: 10px; /* Esta propiedad le da el toque a el texto del titulo una margen superior  */
+}
+
+
+
+.tarjeta p {
+     font-size: 0.9em; /*se agrega el font size para darle tamaño */
+    line-height: 1.5; /*el line height para es espacio entre la altura de las lineas de texto */
+}
